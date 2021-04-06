@@ -779,6 +779,85 @@ public class Throws {
 
 ![Interface vs Abstract class](sources\images\interface-vs-abstractclass.jpg)
 
+# DBMS
+
+### [DDL, DML, DCL, TCL, DQL](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
+
+### [Normalization](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
+
+- Normalization is a database design technique that reduces data redundancy and eliminates undesirable characteristics like Insertion, Update and Deletion Anomalies.
+- Normalization rules divides larger tables into smaller tables and links them using relationships.
+- purpose of normalization is to remove redundant data from tables.
+- The need for normalization is basically for making sure that a table contains only data directly related to the primary key, that each data field contains only one item of data, and that redundant (duplicated and unnecessary) data is eliminated.
+
+#### [1NF](https://www.javatpoint.com/dbms-first-normal-form):
+
+- Each table cell should contain a single value.
+- A relation is in 1NF if it contains an atomic value.
+
+#### [2NF](https://www.javatpoint.com/dbms-second-normal-form):
+
+- Rule 1- Be in 1NF
+- Rule 2- A relation will be in 2NF if it is in 1NF and all non-key attributes are fully functional dependent on the primary key.
+
+#### [3NF](https://www.javatpoint.com/dbms-third-normal-form):
+
+- A relation will be in 3NF if it is in 2NF and no transition dependency exists.
+- A relation will be in 3NF if it is in 2NF and no transition dependency exists.
+- id, zip, state city example
+
+#### [BCNF](https://www.javatpoint.com/dbms-boyce-codd-normal-form)
+
+### [Joins](https://www.w3schools.com/sql/sql_join.asp)
+
+![Joins](sources\images\joins.png)
+
+#### inner join :
+
+only common fields between table
+
+#### left join :
+
+The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2)
+
+#### right join :
+
+The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1)
+
+#### full outer join / full join :
+
+The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+
+#### [self join](https://www.tutorialspoint.com/sql/sql-self-joins.htm) :
+
+The SQL SELF JOIN is used to join a table to itself as if the table were two tables; temporarily renaming at least one table in the SQL statement.
+
+#### [union](https://www.tutorialspoint.com/sql/sql-unions-clause.htm) :
+
+The SQL UNION clause/operator is used to combine the results of two or more SELECT statements without returning any duplicate rows.
+
+#### [when to use SQL]():
+
+- working with complex queries, build a script and retrieves data
+- better for heavy duty complex transactions cause its more stable and ensure integrity
+- when we need to ensure ACID properties
+- no frequent changes in schema or growth.
+
+#### [NoSQL types](https://www.mongodb.com/scale/types-of-nosql-databases) :
+
+- key value pair
+- document store
+- Column-Oriented Databases
+- graph database
+
+#### [when NoSQL](https://www.mongodb.com/nosql-explained/when-to-use-nosql) :
+
+- faster development
+- flexible schema desing
+- handle large ammount of data in cheaper price
+- scale traffic 0 downtown time
+- new application paradigms including cloud technology, real time streaming, supports both trasactional and analytical workloads.
+
 ```java
 
 ```
