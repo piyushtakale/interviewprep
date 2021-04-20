@@ -685,7 +685,7 @@ class InvalidAgeException extends RuntimeException{
 
 ### Exception Propogation
 
-![method propogation](sources\images\method-propogation.png)
+![method propogation](sources/images/method-propogation.png)
 
 ```java
 import java.io.IOException;
