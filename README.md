@@ -403,7 +403,7 @@ public class MultipleInheritance {
 
 - runtime : Whenever an object is bound with the functionality at run time, this is known as runtime polymorphism. The runtime polymorphism can be achieved by method overriding. Java virtual machine determines the proper method to call at the runtime, not at the compile time. It is also called dynamic or late binding.
 
-![keywords](sources\images\compiletime-vs-runtime.jpg)
+![keywords](sources/images/compiletime-vs-runtime.jpg)
 
 #### compile time poly / function overloading
 
@@ -549,7 +549,7 @@ class Driver{
 - Exception handling is done because of in any uncertain situation if any errors occurs the application should not crash or shut down.
 - Exception handling is just error handling code.
 
-![keywords](sources\images\exception-handling-keywords.JPG)
+![keywords](sources/images/exception-handling-keywords.JPG)
 
 #### try catch block
 
@@ -685,7 +685,7 @@ class InvalidAgeException extends RuntimeException{
 
 ### Exception Propogation
 
-![method propogation](sources\images\method-propogation.png)
+![method propogation](sources/images/method-propogation.png)
 
 ```java
 import java.io.IOException;
@@ -777,7 +777,7 @@ public class Throws {
 
 ## Interface vs Abstract class
 
-![Interface vs Abstract class](sources\images\interface-vs-abstractclass.jpg)
+![Interface vs Abstract class](sources/images/interface-vs-abstractclass.jpg)
 
 # DBMS
 
@@ -810,7 +810,7 @@ public class Throws {
 
 ### [Joins](https://www.w3schools.com/sql/sql_join.asp)
 
-![Joins](sources\images\joins.png)
+![Joins](sources/images/joins.png)
 
 #### inner join :
 
@@ -857,6 +857,16 @@ The SQL UNION clause/operator is used to combine the results of two or more SELE
 - handle large ammount of data in cheaper price
 - scale traffic 0 downtown time
 - new application paradigms including cloud technology, real time streaming, supports both trasactional and analytical workloads.
+
+### ACID properties :
+
+#### Atomacity :
+
+By this, we mean that either the entire transaction takes place at once or doesn’t happen at all. There is no midway i.e. transactions do not occur partially.
+
+#### Consistency :
+
+refers to accuracy of the database. Maintains integrity of
 
 ```java
 
